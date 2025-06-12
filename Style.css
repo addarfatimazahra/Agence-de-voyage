@@ -1,0 +1,457 @@
+/*nav*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+   
+   
+    padding: 10px 20px;
+    background-color: #fcfcfc;
+}
+
+.logo img {
+   display: flex;
+   align-content: center;
+    height: 30px;
+    
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    flex-wrap: wrap;
+}
+
+li {
+    margin-left: 20px;
+    flex: 1;
+    text-align: end;
+    
+    
+}
+
+a{
+   text-decoration: none;
+    color: rgb(13, 28, 236);
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 15px;
+    
+    
+}
+
+a:hover {
+    color: #FFD700;
+}
+
+/*hero*/
+.hero{
+   background-image: url('img/image1.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+}
+.title{
+    text-align: center;
+    font-size: 30px;
+    padding: 40px;
+}
+.paragraphe{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.hero-content{
+    max-width:  600px;
+    text-align: center;
+}
+.btn{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color:blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+   
+}
+.btn:hover {
+    background-color: #FFD700; /* Couleur au survol */
+}
+/* destinatiosn*/
+.destinations {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.destinations h2 {
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px; 
+}
+
+.destination-item1 {
+    background-image: url('img/Malaga.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 50px;
+    border-radius: 8px; 
+}
+
+.destination-item2 {
+    background-image: url('img/paris.jpeg');/* Remplace par le chemin de ton image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 50px;
+    border-radius: 8px;
+}
+
+.destination-item3 {
+    background-image: url('img/geneve.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 50px;
+    border-radius: 8px;
+}
+
+.destination-item4 {
+    background-image: url('img/IST.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 50px;
+    border-radius: 8px;
+}
+.destination-item5 {
+    background-image: url('img/new-york.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 50px;
+    border-radius: 8px;
+}
+.destination-item6 {
+    background-image: url('img/cairo.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 50px;
+    border-radius: 8px;
+}
+.destination-item7 {
+    background-image: url('img/madrid.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 50px;
+    border-radius: 8px;
+}
+.destination-item8 {
+    background-image: url('img/tunis.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 50px;
+    border-radius: 8px;
+}
+
+h3 {
+    margin-bottom: 10px; 
+   
+}
+
+p {
+    margin: 0;
+    
+}
+.btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: rgb(43, 97, 172);
+    color: #f9f9f9;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.btn:hover{
+    background-color: bisque;
+}
+
+/* forfait touristique*/
+.visite {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.card{
+    position: relative;
+    width: 290px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+.button{
+    position: relative;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.info{
+    padding: 15px;
+
+}
+.info h2{
+    margin: 0;
+    font-size: 10px;
+}
+.info p{
+    color: #555;
+    margin: 10px;
+}
+.price{
+    font-weight: bold;
+    color: goldenrod;
+    margin-top: 10px;
+}
+.titre-forfaits {
+    
+    text-align: center; 
+    margin-bottom: 40px;
+    margin-top: 40px; 
+    font-size: 2rem;
+    color:#007bff; 
+}
+/*Formulaire*/
+.form-container{
+    background-color: white;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 40px auto;
+    display: flex;
+    
+    flex-direction: column;
+
+}
+h2{
+    text-align: center;
+    color: #007bff; 
+    margin-bottom: 20px;
+
+}
+.form-group{
+    margin-bottom: 15px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+input,select,textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid  #007bff;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+textarea{
+    resize: vertical;
+}
+button{
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    position: relative;
+
+
+}
+button:hover{
+    background-color: #0056b3 ;
+}
+input:focus, select:focus, textarea:focus {
+    border-color: #ffd700; /* Bordure jaune au focus */
+    outline: none; /* Enlève le contour par défaut */
+}
+
+/*footer*/
+.footer{
+    background-color:  #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.footer-container{
+    max-width: 800px;
+    margin: auto;
+}
+.social-icons a {
+    margin: 0 10px; 
+}
+
+.social-icons img {
+    width: 30px; 
+    height: 30px;
+}
+/* Styles Responsives */
+
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column; 
+        align-items: flex-start; 
+        
+    }
+   img{
+    height:10px;
+   }
+
+    ul {
+        flex-direction: row; 
+        width: 100%; 
+    }
+
+    li {
+        margin-left: 5px; 
+        flex: 1;
+        text-align: end;
+    }
+    a {
+       
+        font-size: 10px;
+    }
+    .btn{
+        padding: 8px 16px;
+    }
+    .hero{
+        height: 300px;
+    }
+    .title{
+        font-size: 1rem;
+    }
+    .paragraphe{
+        font-size: 1rem;
+    }
+
+    .grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    }
+
+    h3 {
+        font-size: 1.2rem; 
+    }
+
+    p {
+        font-size: 0.9rem; 
+    }
+    .destination-item {
+        padding: 30px; 
+    }
+
+    .grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    }
+
+    .destination-item h3 {
+        font-size: 1.5rem; 
+    }
+
+    .destination-item p {
+        font-size: 0.9rem; 
+    }
+    .card {
+        width: 100%; 
+        max-width: 300px; 
+    }
+
+    .button {
+        font-size: 14px; 
+    }
+    .titre-forfaits {
+        font-size: 20px;
+    }
+    .form-container {
+        padding: 15px;
+        width: 300px; 
+    }
+    h2 {
+        font-size: 1.5rem; 
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .form-container {
+        padding: 30px; 
+        max-width: 600px; 
+    }
+
+    h2 {
+        font-size: 1.75rem; 
+    }
+
+    button {
+        font-size: 16px; 
+    }
+    
+    input, select, textarea {
+        font-size: 16px; 
+    }
+    .hero{
+        height: 500px;
+    }
+    .title{
+        font-size: 2rem;
+    }
+    .paragraphe{
+        font-size: 2rem;
+    }
+    .footer {
+        padding: 15px; 
+    }
+    
+    .social-icons img {
+        width: 25px; 
+        height: 25px; 
+    }
+}
+
+
+
